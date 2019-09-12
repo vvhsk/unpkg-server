@@ -1,4 +1,4 @@
-<h1 align="center">UNPKG</h1>
+<h1 align="center">UNPKG-SERVER</h1>
 
 <p align="center">
   <a title="Travis Build" href="https://travis-ci.org/mjackson/unpkg">
@@ -8,17 +8,13 @@
 
 [UNPKG](https://unpkg.com) is a fast, global [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network) for everything on [npm](https://www.npmjs.com/).
 
-## Documentation
+# unpkg-server
 
-Please visit [the UNPKG website](https://unpkg.com) to learn more about how to use it.
-
-## Sponsors
-
-Our sponsors and backers are listed [in SPONSORS.md](SPONSORS.md).
+**unpkg-server** is a distribution of [UNPKG](https://unpkg.com) you can run on your own network with your own private npm registry
 
 ## Private Hosting
 
-Install `unpkg-server` into a local project/folder. Global install is not yet supported.
+Install `unpkg-server` locally. (Global install is not yet supported)
 
 ```sh
 npm i unpkg-server
@@ -61,3 +57,11 @@ Use a `.env` file to set the following options when building the app with `npm r
 | ----------- | ---------------------------------------- | ------------- |
 | `BUILD_ENV` | `production` or `development`            | `development` |
 | `NODE_ENV`  | `production`, `staging` or `development` | `development` |
+
+## Documentation
+
+Please visit [the UNPKG website](https://unpkg.com) to learn more about how to use it.
+
+## Sponsors
+
+Our sponsors and backers are listed [in SPONSORS.md](SPONSORS.md).

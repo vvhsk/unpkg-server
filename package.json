@@ -1,12 +1,16 @@
 {
   "name": "unpkg-server",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "description": "The CDN for everything on npm",
-  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KevinSheedy/unpkg-server.git"
+  },
   "files": [
     "server.js"
   ],
+  "main": "server.js",
   "scripts": {
     "build": "rollup -c",
     "clean": "git clean -e '!/.env' -fdX .",
